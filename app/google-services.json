@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342201048249",
+    "firebase_url": "https://makeupword-6c404.firebaseio.com",
+    "project_id": "makeupword-6c404",
+    "storage_bucket": "makeupword-6c404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342201048249:android:dd24935653b1d6bf",
+        "android_client_info": {
+          "package_name": "com.example.mohammed.makeupword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342201048249-o1lahi44mqs16o5busaq0l07h3kfga4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohammed.makeupword",
+            "certificate_hash": "f3656690f51edce64b182d49dd846a9710224d86"
+          }
+        },
+        {
+          "client_id": "342201048249-kf57nj3khktms84uicn083cf0o7lbqr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG878eniwLn6cnWaZdtYkWxGEwaQYLg8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342201048249-kf57nj3khktms84uicn083cf0o7lbqr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

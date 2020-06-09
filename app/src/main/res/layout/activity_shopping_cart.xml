@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCart.ShoppingCart">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Shoping Cart "
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/t"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Shopping_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none"
+
+        />
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorAccent"
+         android:textColor="@color/white"
+         android:id="@+id/Place_Order"
+        android:text="Place Order"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
